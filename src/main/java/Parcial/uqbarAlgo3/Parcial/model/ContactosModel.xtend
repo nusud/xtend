@@ -40,7 +40,8 @@ class ContactosModel{
 //			internalServerError(e.message)
 //		}
 //	}
-		@Get("/agenda")
+
+	@Get("/agenda")
 	def Result getAgenda(){
 		try {
 			val contactos = (getAgenda())
@@ -49,6 +50,7 @@ class ContactosModel{
 			internalServerError(e.message)
 		}
 	}
+	
 	@Put('/buscar')
 	def Result buscar(@Body String body){
 		stringBuscado = body.getPropertyValue("stringBuscado")
@@ -58,7 +60,6 @@ class ContactosModel{
 	def getAgenda(){
 		return contactos.toList
 	}
-	
 	
 	@Put('/agregarContacto')
 	def Result agregarContacto(@Body String body){

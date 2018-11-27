@@ -9,6 +9,6 @@ class ContactosApp {
 
 def static void main(String[] args) {
 	
-		XTRest.start(9000,ContactosModel)// Contacto, 
+		XTRest.start(9000,ContactosModel)
 	}	
 }

@@ -19,6 +19,4 @@ class Agenda {
 		contactos.findFirst[elemento|elemento.getId() == _id]
 	}
 	
-	
-	
 }

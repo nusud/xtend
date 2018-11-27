@@ -65,8 +65,6 @@ class Bootstrap extends CollectionBasedBootstrap{
 			nombreApellido = "jkhljkl"
 			email = "tyutyu@yahoo.com"
 			telefono = "156821846"
-		])
-		
+		])	
 	}
-	
 }

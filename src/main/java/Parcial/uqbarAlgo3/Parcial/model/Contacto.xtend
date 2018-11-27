@@ -18,10 +18,11 @@ class Contacto {
 	def toggleFavorito() {
 		favorito = !favorito
 	}
-	@Dependencies("nombreApellido", "email", "telefono")
-	def getEnabledEditar(){
-	 	validar(nombreApellido) && validar(telefono) && validar(email)
-	 }
+	
+	//@Dependencies("nombreApellido", "email", "telefono")
+	//def getEnabledEditar(){
+	// 	validar(nombreApellido) && validar(telefono) && validar(email)
+	// }
 	
 	 def boolean validar(String unString){
 	 	unString !== null && unString !== ""
